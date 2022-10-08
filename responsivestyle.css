@@ -3,9 +3,15 @@
     .card{
         padding: 2.5rem 1.85rem;
     }
-    
+    .header_wrapper .navbar-nav .nav-link{
+        font-size:1rem;
+    }
     /* navbar */
-/* banner */
+/* top banner */
+.banner_wrapper .animate-img .aimg1{
+    left: 30rem;
+    margin-left: 10rem;
+}
 /* about */
 /* services */
 /* blog */
@@ -14,7 +20,7 @@
 @media (max-width:991px){
 /* custom css */
 .wrapper{
-    padding: 3.125rem 0;;
+    padding: 3.125rem 0;
 }
 .maint-btn{
     font-size: .875rem;
@@ -47,7 +53,23 @@ p{
     padding:1.875rem 1rem;
 }
 /* navbar */
+.header_scrolled{
+    height: auto;
+
+}
+.header_wrapper .menu-navbar-nav{
+    text-align:center;
+}
+.header_wrapper .nav-item .nav-link{
+    margin-top:0.93rem;
+}
 /* banner */
+.banner_wrapperp{
+    max-width:100%;
+}
+.banner_wrapper .animate-img .aimg1{
+    left: 24.2rem;
+}
 /* about */
 /* services */
 /* blog */
@@ -69,6 +91,9 @@ p{
     {
         font-size: 1.25rem;
     }
+    .banner_wrapper .animate-img .aimg1{
+        left: -0.8rem;
+    }
 
     /* navbar */
     /* banner */
@@ -83,8 +108,11 @@ p{
 @media (max-width:360px){
    
 
-   
+    .banner_wrapper .animate-img .aimg1{
+        left: -6.8rem;
+    }
     /* banner */
+    
     /* about */
    
     

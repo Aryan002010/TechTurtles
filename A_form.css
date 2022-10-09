@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+body{
+    background-color: #3672bc;
+}
+.container{
+    /* background-color: black; */
+    margin: 100px 650px;
+    width: 500px;
+    height: 770px;
+    border: 1px solid black;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3672bc;
+}
+table{
+    border: 1px solid red;
+    position:absolute;
+    top: 180px;
+    left: 261px;
+}
+
+.container label{
+    font-size: 25px;
+}
+.container input{
+    font-size: 15px;
+}

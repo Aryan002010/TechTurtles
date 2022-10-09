@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto+Slab:wght@100;200;400;500;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Slab:wght@100;200;400;500;600;700;900&display=swap');
+
+
+:root {
+    /* background color */
+    --primary-color: #004caa;
+    --secondary-color: #fc5185;
+    --bg-light-blue: #3672bc;
+    --bg-dark: #666;
+    --bg-white: #fff;
+
+
+    /* text style */
+    --primary-font: 'Roboto Slab', serif;
+    --secondary-font: 'Josefin Sans';
+    --primary-text: #004caa;
+    --secondary-text: #fc5185;
+    --text-white: #fff;
+    --text-black: #222;
+    --text-gray: #666;
+    --text-light: #ddd;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+   
+}
+.head{
+    /* background: rgb(181, 152, 156); */
+    /* padding-left: 770px; */
+    font-size: 50px;
+    font-family: cursive;
+    
+    text-align: center;
+    justify-content: center;
+    padding: 36px;
+    margin: 20px;
+
+}
+table tr td{
+    box-shadow:  .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 /8%);
+    margin: 50px;
+}
+h1 {
+    font-size: 3.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: #fc5185;
+    font-family:"josefin-sans";
+
+}
+.container{
+    margin: 20px;
+    width: 100%;
+    /* background: rgb(175, 174, 174); */
+}
+
+
+
+
+
+
+
+
+
+

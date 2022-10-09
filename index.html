@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>webpage</title>
+  <title>Turtle's Clinic</title>
 
   <!-- favicon -->
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <!-- bootstrap cdn link  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- font awesome link   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -20,14 +23,14 @@
   <link rel="stylesheet" href="responsivestyle.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="100" >
+<body data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="100">
 
   <!-- navbar section -->
   <header class="header_wrapper">
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="image/logo.png" alt="" img-fluid> Hospital Name </a>
+          <img src="image/logo.png" alt="" img-fluid> Turtle's Clinic </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,16 +52,16 @@
               <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="gallery.html" target="self">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Testimonial</a>
+              <a class="nav-link" href="testimonials.html" target="_self">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
             <li class="nav-item mt-3 mt-lg-0">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -84,20 +87,20 @@
             <h1>better dentistry</h1>
             <p>Join us to a fun and friendly dental enviroment. Our professionals are working to hard to see smile on
               your face that you deserve! we are dedicated about our duties</p>
-            <a href="#" class="main-btn mt-4 fill-btn ">Appointment</a>
+            <a href="A_form.html" class="main-btn mt-4 fill-btn " target="_self">Appointment</a>
             <a href="#" class="main-btn mt-4 ms-3 ">Learn More</a>
           </div>
           <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5>
-            <div class="top-right-sec">
-              <div class="animate-img">
-                <img class="aimg1" src="./images/top-banner-img/woman-brush.png" >
-                <img class="aimg2" src="./images/top-banner-img/doctor.png" >
-              </div>
-              <img class="image-fluid ms-x1-5" src="./images/top-banner-img/top-right-img-1.png" alt="">
+            <div class=" top-right-sec">
+            <div class="animate-img">
+              <img class="aimg1" src="./images/top-banner-img/woman-brush.png">
+              <img class="aimg2" src="./images/top-banner-img/doctor.png">
             </div>
+            <img class="image-fluid ms-x1-5" src="./images/top-banner-img/top-right-img-1.png" alt="">
           </div>
         </div>
       </div>
+    </div>
     </div>
     <div class="wrapper pb-0">
       <div class="container">
@@ -108,7 +111,7 @@
                 <img src="./images/top-banner-img/Appointment-icon.png">
               </div>
               <div>
-                <h4>easy appointment</h4>
+                <h4>Easy appointment</h4>
 
                 <p>Lorem ipsuim, saepe perspiciatis cum rem officiis!</p>
               </div>
@@ -134,7 +137,7 @@
               <div>
                 <h4> Services 24/7</h4>
 
-                <p>Lorem ipsum dolor sit amet conse elit. Deleniti sequi, doloremque minima </p>
+                <p>Lorem ipsum dolor sit amet consui, doloremque minima </p>
               </div>
             </div>
           </div>
@@ -151,7 +154,45 @@
 
 
   <!-- about section -->
+  <section id="about" class="about_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-mb-0 mb-5">
+          <div class="position-relative">
+            <img src="./images/about/about-banner1.png" class="img-fluid">
+            <img src="./images/about/about-img2.png " class="about-animate ">
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+          <h2>Welcome to a Family</h2>
+          <p>lorum luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magn
+            .</p>
+          <div class="mt-5 card">
+            <div class="about-clinic">
+              <h4>500+</h4>
+              <p>Happy Patients</p>
+            </div>
+            <div class="about-clinic">
+              <h4>88+</h4>
+              <p>Qualified Doctors</p>
+            </div>
+            <div class="about-clinic">
+              <h4>25+</h4>
+              <p>Years Experience</p>
+            </div>
+            <div class="about-clinic">
+              <h4>55+</h4>
+              <p>Dental Awards</p>
+            </div>
 
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
 
 
@@ -164,6 +205,96 @@
 
 
   <!-- service section  -->
+  <section id="services" class="services_wrapper wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sn-12 text- center mb-5">
+          <h3>Our Services</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/1.svg" alt="">
+            </div>
+            <div>
+              <h4>complete dentistry</h4>
+              <p>Lorem iitatibus distinctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/2.svg" alt="">
+            </div>
+            <div>
+              <h4>Dental Selants</h4>
+              <p>Lorem ipsum, dolor sit amctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/3.svg" alt="">
+            </div>
+            <div>
+              <h4>Dental Implants</h4>
+              <p>Lorem ipsums distinctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/4.svg" alt="">
+            </div>
+            <div>
+              <h4>Oral Surgery</h4>
+              <p>Lorem ipsuus distinctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/5.svg" alt="">
+            </div>
+            <div>
+              <h4>General dentistry</h4>
+              <p>Lorem ipsum,bus distinctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <div class="icon-box">
+              <img src="./images/services/6.svg" alt="">
+            </div>
+            <div>
+              <h4>Complete Dentistry</h4>
+              <p>Lorem ipsum, dos distinctio corporis tempore quidem?
+              </p>
+              <a href="#" class="main-btn mt-4">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
 
@@ -179,6 +310,74 @@
 
 
   <!-- team section -->
+  <section class="team_wrapper wrapper" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm12 text-center mb-5">
+          <h3 class="text-black"> Our Dentists</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./images/team/team1.png" class="img-fluid" alt="">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>darry millins</h5>
+              <p>Oral Surgeon</p>
+              <ul class="social-network">
+                <i class="fa fa-facebook"></i> &nbsp;&nbsp;
+                <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+                <i class="fa fa-google"></i>&nbsp;&nbsp;
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./images/team/team2.png" class="img-fluid" alt="">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>Jonas Brains</h5>
+              <p>Oral Surgeon</p>
+              <ul class="social-network">
+                <i class="fa fa-facebook"></i> &nbsp;&nbsp;
+                <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+                <i class="fa fa-google"></i>&nbsp;&nbsp;
+
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="card rounded-3">
+            <div class="team-img">
+              <img src="./images/team/team3.png" class="img-fluid" alt="">
+            </div>
+            <div class="team-info pt-4 text-center">
+              <h5>Becky Drawes</h5>
+              <p>Oral Surgeon</p>
+              <ul class="social-network">
+                <i class="fa fa-facebook"></i> &nbsp;&nbsp;
+                <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+                <i class="fa fa-google"></i>&nbsp;&nbsp;
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -264,7 +463,7 @@
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
 
-<script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
